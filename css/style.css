@@ -41,36 +41,26 @@ header.topbar nav ul li {
   padding: 0 20px;
 }
 
+
 /*  section with five blocks  */
 
 section#five-blocks {
   padding-top: 50px;
 }
 
-        /* altezza da togliere */
 section#five-blocks .row {
-  height: 300px;  
+  flex-wrap: wrap;
 }
 
-section#five-blocks .first.row .col:first-child {
-  width: 66.7%;
+section#five-blocks .first.col {
+  width: calc(100% - 100% / 3);
 }
 
-section#five-blocks .first.row .col:nth-child(2) {
-  width: calc(100% - 66.7%);
+section#five-blocks .col {
+ width: calc( 100% / 3);
 }
 
-section#five-blocks .second.row .col {
-  width: calc( 100% / 3);
-}
 
-section#five-blocks .first.row .first.col .text{
- width: 60%;
-}
-
-section#five-blocks .first.row .first.col .image {
-  width: 40%;
-}
 
 /*  /section with five blocks  */
 
@@ -158,4 +148,30 @@ section#about-us .row .second.col {
 
 footer {
   text-align: center;
+}
+
+
+
+
+/* ----MEDIA QUERIES */
+
+@media screen and (max-width: 576px) {
+ nav {
+  display: none;
+ }
+
+ .container {
+  width: 90%;
+  flex-direction: column;
+ }
+
+#five-blocks .row {
+  flex-direction: column;
+  justify-content: center;
+}
+
+#five-blocks .col {
+  width: 100%;
+}
+
 }
