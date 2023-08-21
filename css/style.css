@@ -25,7 +25,6 @@ a {
   width: 90%;
   max-width: 576px;
   margin: 0px auto;
-  align-items: center;
 }
 
 header.topbar {
@@ -135,9 +134,10 @@ footer {
 /* ----MEDIA QUERIES */
 
 
+/* TABLET  */
+
 @media screen and (min-width: 768px) {
   .container {
-    width: 80%;
     max-width: 768px;
    }
 
@@ -199,7 +199,7 @@ section#about-us .row .second.col {
   width: 30%;
 }
 
-/* * section about us  */ 
+/* section about us  */ 
 
 
 }
