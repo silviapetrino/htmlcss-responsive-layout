@@ -103,34 +103,29 @@ section#testimonial .col .card .image {
 
 
 /* section benefits  */
+
 section#benefits .row {
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
-     /* altezza da togliere */
 section#benefits .row .col {
-  width: calc( 100% / 3);
-  height: 200px;
+  width: 100%;
 }
 
 /* /section benefits  */
 
 /*  section about us */
 
-
-  /* altezza da togliere */
 section#about-us .row {
-  height: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-section#about-us .row .first.col {
-  width: 70%;
+section#about-us .col {
+  width: 100%;
 }
-
-section#about-us .row .second.col {
-  width: 30%;
-}
-
 
 /*  /section about us */
 
@@ -199,8 +194,35 @@ section#strategic-planning .row .col .second.card {
   
   section#testimonial .col .card .image {
     background-color: yellow;
-    border-radius: 50%;;
+    height: 100px;
+    border-radius: 50%;
+}
+ 
+/* section benefits  */
+  section#benefits .row {
+  flex-wrap: wrap;
+  flex-direction: row;
+  }
 
-  /* /section testimonial */ 
+  section#benefits .row .col {
+  width: calc( 100% / 3);
+  height: 200px;
+}
+/* /section benefits  */
+/* section about us  */
+
+section#about-us .row {
+  height: 200px;
+}
+
+section#about-us .row .first.col {
+  width: 70%;
+}
+
+section#about-us .row .second.col {
+  width: 30%;
+}
+
+/* * section about us  */ 
 
 }
