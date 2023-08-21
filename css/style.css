@@ -73,7 +73,7 @@ section#strategic-planning .row {
 
 /* /section strategic planning */
 
-/* /section testimonial */
+/* section testimonial */
 
    /* altezze da togliere */
 
@@ -105,7 +105,6 @@ section#testimonial .col .card .image {
 
 section#benefits .row {
   flex-direction: column;
-  align-items: center;
 }
 
 section#benefits .row .col {
@@ -135,6 +134,61 @@ footer {
 
 /* ----MEDIA QUERIES */
 
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 80%;
+    max-width: 768px;
+   }
+
+   /* five blocks section  */
+
+   section#five-blocks .first.col {
+    width: calc(100% - 100% / 3);
+  }
+  
+  section#five-blocks .col {
+   width: calc( 100% / 3);
+  }
+
+/* five blocks section  */
+
+
+/* testionial section  */
+section#testimonial .col {
+  width: 100%;
+  height: 150px;
+}
+
+section#testimonial .col .card {
+  border-radius: 20px;
+  height: 80px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+section#testimonial .col .card .image {
+  background-color: yellow;
+
+  
+}
+/* testionial section  */ 
+/* section benefits  */
+section#benefits .row {
+  flex-wrap: wrap;
+  flex-direction: row;
+  }
+
+  section#benefits .row .col {
+  width: calc( 100% / 2);
+  height: 200px;
+}
+/* /section benefits  */
+
+}
+
+/* ---DESKTOP-- */
+
 @media screen and (min-width: 1200px) {
  nav {
   display: block;
@@ -144,15 +198,6 @@ footer {
   width: 70%;
   max-width: 1200px;
  }
-
- section#five-blocks .first.col {
-  width: calc(100% - 100% / 3);
-}
-
-section#five-blocks .col {
- width: calc( 100% / 3);
-}
-
 
   /* section strategic planning */ 
 
@@ -175,29 +220,8 @@ section#strategic-planning .row .col .second.card {
   /* /section strategic planning */ 
 
    /* /section testimonial */ 
-
-  
-  section#testimonial .col {
-    width: 100%;
-    height: 150px;
-  }
-  
-  section#testimonial .col .card {
-    border-radius: 20px;
-    height: 80px;
-    justify-content: space-between;
-    flex-direction: row;
-  }
-  
-  section#testimonial .col .card .image {
-    background-color: yellow;
-}
  
 /* section benefits  */
-  section#benefits .row {
-  flex-wrap: wrap;
-  flex-direction: row;
-  }
 
   section#benefits .row .col {
   width: calc( 100% / 3);
