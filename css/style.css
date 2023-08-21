@@ -23,7 +23,7 @@ a {
 
 .container {
   width: 80%;
-  margin: 10px auto;
+  margin: 0px auto;
   justify-content: space-between;
   align-items: center;
 }
@@ -69,4 +69,26 @@ section#five-blocks .first.row .first.col .text{
 
 section#five-blocks .first.row .first.col .image {
   width: 40%;
+}
+
+/*  /section with five blocks  */
+
+
+/* section strategic planning */
+
+section#strategic-planning {
+  background-color: blueviolet;
+}
+
+section#strategic-planning .row .col {
+  width: 50%;
+}
+
+section#strategic-planning .row .col .first.card {
+  padding: 20% 0 20% 20%;
+}
+
+
+section#strategic-planning .row .col .second.card {
+  padding: 20% 20% 20% 0;
 }
