@@ -22,10 +22,9 @@ a {
 }
 
 .container {
-  width: 70%;
-  max-width: 1200px;
+  width: 90%;
+  max-width: 576px;
   margin: 0px auto;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -36,7 +35,7 @@ header.topbar {
 }
 
 header.topbar nav ul li {
-  display: inline-block;
+  display: none;
   list-style: none;
   padding: 0 20px;
 }
@@ -52,14 +51,9 @@ section#five-blocks .row {
   flex-wrap: wrap;
 }
 
-section#five-blocks .first.col {
-  width: calc(100% - 100% / 3);
-}
-
 section#five-blocks .col {
- width: calc( 100% / 3);
+  width: 100%;
 }
-
 
 
 /*  /section with five blocks  */
@@ -70,19 +64,12 @@ section#five-blocks .col {
 section#strategic-planning {
   background-color: blueviolet;
 }
-
-section#strategic-planning .row .col {
-  width: 50%;
+section#strategic-planning .row {
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
 }
 
-section#strategic-planning .row .col .first.card {
-  padding: 20% 0 20% 20%;
-}
-
-
-section#strategic-planning .row .col .second.card {
-  padding: 20% 20% 20% 0;
-}
 
 /* /section strategic planning */
 
@@ -93,6 +80,7 @@ section#strategic-planning .row .col .second.card {
 section#testimonial .container {
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 section#testimonial .col {
@@ -103,12 +91,12 @@ section#testimonial .col {
 section#testimonial .col .card {
   border-radius: 20px;
   height: 80px;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 section#testimonial .col .card .image {
   background-color: yellow;
-  border-radius: 50%;;
+  border-radius: 50%;
 }
 
 /* /section testimonial */
@@ -155,23 +143,64 @@ footer {
 
 /* ----MEDIA QUERIES */
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 1200px) {
  nav {
-  display: none;
+  display: block;
  }
 
  .container {
-  width: 90%;
-  flex-direction: column;
+  width: 70%;
+  max-width: 1200px;
  }
 
-#five-blocks .row {
-  flex-direction: column;
-  justify-content: center;
+ section#five-blocks .first.col {
+  width: calc(100% - 100% / 3);
 }
 
-#five-blocks .col {
-  width: 100%;
+section#five-blocks .col {
+ width: calc( 100% / 3);
 }
+
+
+  /* section strategic planning */ 
+
+section#strategic-planning .row {
+  flex-direction: row;
+}
+
+section#strategic-planning .row .col {
+  width: 50%;
+}
+
+section#strategic-planning .row .col .first.card {
+  padding: 20% 0 20% 20%;
+}
+
+section#strategic-planning .row .col .second.card {
+  padding: 20% 20% 20% 0;
+}
+
+  /* /section strategic planning */ 
+
+   /* /section testimonial */ 
+
+  
+  section#testimonial .col {
+    width: 100%;
+    height: 150px;
+  }
+  
+  section#testimonial .col .card {
+    border-radius: 20px;
+    height: 80px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  section#testimonial .col .card .image {
+    background-color: yellow;
+    border-radius: 50%;;
+
+  /* /section testimonial */ 
 
 }
