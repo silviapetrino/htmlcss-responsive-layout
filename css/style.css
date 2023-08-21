@@ -23,6 +23,7 @@ a {
 
 .container {
   width: 70%;
+  max-width: 1200px;
   margin: 0px auto;
   justify-content: space-between;
   align-items: center;
@@ -121,3 +122,31 @@ section#testimonial .col .card .image {
 }
 
 /* /section testimonial */
+
+
+/* section benefits  */
+section#benefits .row {
+  flex-wrap: wrap;
+}
+
+     /* altezza da togliere */
+section#benefits .row .col {
+  width: calc( 100% / 3);
+  height: 200px;
+}
+
+/* /section benefits  */
+
+/*  section about us */
+
+section#about-us {
+  background-color: violet;
+}
+
+section#about-us .row .first.col {
+  width: 70%;
+}
+
+section#about-us .row .second.col {
+  width: 30%;
+}
