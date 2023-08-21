@@ -184,6 +184,23 @@ section#benefits .row {
   height: 200px;
 }
 /* /section benefits  */
+/* section about us  */
+
+section#about-us .row {
+  height: 200px;
+  flex-direction: row;
+}
+
+section#about-us .row .first.col {
+  width: 70%;
+}
+
+section#about-us .row .second.col {
+  width: 30%;
+}
+
+/* * section about us  */ 
+
 
 }
 
@@ -228,21 +245,5 @@ section#strategic-planning .row .col .second.card {
   height: 200px;
 }
 /* /section benefits  */
-/* section about us  */
-
-section#about-us .row {
-  height: 200px;
-  flex-direction: row;
-}
-
-section#about-us .row .first.col {
-  width: 70%;
-}
-
-section#about-us .row .second.col {
-  width: 30%;
-}
-
-/* * section about us  */ 
 
 }
