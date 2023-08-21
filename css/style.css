@@ -39,3 +39,26 @@ header.topbar nav ul li {
   list-style: none;
   padding: 0 20px;
 }
+
+/*  section with five blocks  */
+
+section#five-blocks {
+  padding-top: 50px;
+}
+
+        /* altezza da togliere */
+section#five-blocks .row {
+  height: 300px;  
+}
+
+section#five-blocks .first.row .col:first-child {
+  width: 70%;
+}
+
+section#five-blocks .first.row .col:nth-child(2) {
+  width: 30%;
+}
+
+section#five-blocks .second.row .col {
+  width: calc( 100% / 3);
+}
