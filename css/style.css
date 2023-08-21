@@ -52,13 +52,21 @@ section#five-blocks .row {
 }
 
 section#five-blocks .first.row .col:first-child {
-  width: 70%;
+  width: 66.7%;
 }
 
 section#five-blocks .first.row .col:nth-child(2) {
-  width: 30%;
+  width: calc(100% - 66.7%);
 }
 
 section#five-blocks .second.row .col {
   width: calc( 100% / 3);
+}
+
+section#five-blocks .first.row .first.col .text{
+ width: 60%;
+}
+
+section#five-blocks .first.row .first.col .image {
+  width: 40%;
 }
