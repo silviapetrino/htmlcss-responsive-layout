@@ -6,6 +6,7 @@
 
 body {
   font-size: 1.3rem;
+  font-family: 'PT Sans', sans-serif;
 }
 
 a {
@@ -27,11 +28,19 @@ a {
   margin: 0px auto;
 }
 
+.col {
+  width: 100%;
+}
+
 header.topbar {
   position: fixed;
   z-index: 999;
   width: 100%;
 }
+
+header.topbar .container {
+  justify-content: space-between;
+ }
 
 header.topbar nav ul li {
   display: none;
@@ -48,10 +57,7 @@ section#five-blocks {
 
 section#five-blocks .row {
   flex-wrap: wrap;
-}
-
-section#five-blocks .col {
-  width: 100%;
+  flex-direction: column;
 }
 
 
@@ -83,7 +89,6 @@ section#testimonial .container {
 }
 
 section#testimonial .col {
-  width: 100%;
   height: 150px;
 }
 
@@ -106,9 +111,6 @@ section#benefits .row {
   flex-direction: column;
 }
 
-section#benefits .row .col {
-  width: 100%;
-}
 
 /* /section benefits  */
 
@@ -120,9 +122,6 @@ section#about-us .row {
   align-items: center;
 }
 
-section#about-us .col {
-  width: 100%;
-}
 
 /*  /section about us */
 
@@ -142,6 +141,10 @@ footer {
   }
 
      /* five blocks section  */
+
+  section#five-blocks .row {
+    flex-direction: row;
+  }
 
   section#five-blocks .first.col {
    width: calc(100% - 100% / 3);
@@ -213,9 +216,6 @@ section#about-us .row .second.col {
   max-width: 1200px;
  }
 
- header.topbar .container {
-  justify-content: space-between;
- }
 
  header.topbar nav ul li {
   display: inline-block;
