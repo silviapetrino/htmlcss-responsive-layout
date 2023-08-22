@@ -13,6 +13,18 @@ a {
   text-decoration: none;
 }
 
+    /* colours palette  */
+
+    :root {
+      --blue: #0084FD;
+      --lightblue: #B5DDFF;
+      --violet: #B5DDFF;
+      --orange: #FDC15F;
+      --black: #333333;
+    }
+
+    /* colours palette  */
+
 .debug {
   background-color: aqua;
   border: 1px solid black;
