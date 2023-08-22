@@ -238,9 +238,7 @@ section#five-blocks .icon {
 
 /* section strategic planning */
 
-section#strategic-planning {
-  background-color: var(--violet);
-}
+
 section#strategic-planning .row {
   width: 100%;
   flex-direction: column;
