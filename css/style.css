@@ -237,6 +237,9 @@ section#strategic-planning .second.card img {
   object-fit: cover;
 }
 
+section#strategic-planning .second.card {
+
+}
 
 section#strategic-planning .second.card i {
   background-color: var(--violet);
@@ -471,9 +474,11 @@ section#strategic-planning .row .col .first.card {
   padding: 20% 0 20% 20%;
 }
 
-section#strategic-planning .row .col .second.card {
-  padding: 20% 20% 20% 0;
+section#strategic-planning .row .second.card {
+ text-align: center;
 }
+
+
 
   /* /section strategic planning */ 
 
