@@ -108,6 +108,12 @@ section {
   height: 100%;
 } 
 
+.box-2 {
+  border-radius: 2rem;
+  padding: 2rem 2rem 1rem 2rem;
+  width: 100%;
+}
+
 .debug {
   border: 1px solid black;
   background-color: rgba(160, 62, 62, 0.2);
@@ -463,6 +469,7 @@ section#five-blocks .row.inside .col {
 
   /* section strategic planning */ 
 
+
 section#strategic-planning h2 {
   font-size: 1.8rem;
   padding: 3rem 0 2rem 0;
@@ -470,6 +477,7 @@ section#strategic-planning h2 {
 
 section#strategic-planning .row {
   flex-direction: row;
+  align-items: last baseline;
 }
 
 section#strategic-planning .row .col {
