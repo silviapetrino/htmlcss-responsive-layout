@@ -94,9 +94,6 @@ section {
   cursor: pointer;
 }
 
-.small-btn {
-  padding: 5rem;
-}
 
 .big-btn {
   padding: .6rem 5rem;
@@ -312,6 +309,7 @@ section#testimonial .col .card .image img {
 
 section#benefits .row {
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 section#benefits .card .number {
@@ -323,8 +321,8 @@ section#benefits .card h4 {
   padding-top: 2rem;
 }
 
-section#benefits .card btn {
-  padding: 
+section#benefits .card p {
+  padding: 2rem 0;
 }
 
 
@@ -445,13 +443,11 @@ section#testimonial .col .card .image img {
 /* testionial section  */ 
 /* section benefits  */
 section#benefits .row {
-  flex-wrap: wrap;
   flex-direction: row;
   }
 
   section#benefits .row .col {
   width: calc( 100% / 2);
-  height: 200px;
 }
 /* /section benefits  */
 /* section about us  */
@@ -539,11 +535,11 @@ section#strategic-planning .row .second.card {
    /* /section testimonial */ 
  
 /* section benefits  */
-
-  section#benefits .row .col {
+ 
+section#benefits .row .col {
   width: calc( 100% / 3);
-  height: 200px;
-}
-/* /section benefits  */
 
+}
+
+/* /section benefits  */
 }
