@@ -292,6 +292,8 @@ section#testimonial .col .card {
 
 
 section#testimonial .col .card .image {
+  width: 200px;
+  height: 200px;
   overflow: hidden;
 }
 
@@ -408,6 +410,7 @@ section#strategic-planning .first.card h2 {
 }
 
   section#testimonial .col .card {
+   border-radius: 20px;
    justify-content: space-between;
    flex-direction: row;
  }
