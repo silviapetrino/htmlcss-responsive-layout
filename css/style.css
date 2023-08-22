@@ -13,6 +13,16 @@ a {
   text-decoration: none;
 }
 
+h4 {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+p {
+  line-height: 1.8rem;
+  padding-bottom: 1rem;
+}
+
     /* colours palette  */
 
     :root {
@@ -31,10 +41,18 @@ a {
 
 .white-text {
   color: var(--white);
-}   
+}
+
+.black-text-light {
+  color: var(--black);
+}
 
 .black-text {
   color: var(--bold-black);
+}
+
+.blue-text {
+  color: var(--blue);
 }
 
 .small-text {
@@ -47,6 +65,12 @@ a {
   cursor: pointer;
 }
 
+.box {
+  border-radius: 2rem;
+  background-color: var(--lightblue);
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  width: 95%;
+} 
 
 .debug {
   border: 1px solid black;
@@ -68,6 +92,8 @@ a {
 .col {
   width: 100%;
 }
+
+
 
 header.topbar {
   position: fixed;
@@ -105,6 +131,21 @@ section#five-blocks {
 section#five-blocks .row {
   flex-wrap: wrap;
   flex-direction: column;
+}
+
+section#five-blocks .row.inside {
+  flex-direction: column;
+ }
+
+ section#five-blocks .col .image {
+  width: 90%;
+ }
+
+section#five-blocks .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 
@@ -189,9 +230,10 @@ footer {
 
      /* five blocks section  */
 
-  section#five-blocks .row {
-    flex-direction: row;
-  }
+ section#five-blocks .row {
+  flex-direction: row;
+ }
+
 
   section#five-blocks .first.col {
    width: calc(100% - 100% / 3);
@@ -267,6 +309,16 @@ section#about-us .row .second.col {
  header.topbar nav ul li {
   display: inline-block;
  }
+
+ section#five-blocks .row {
+  flex-direction: row;
+}
+
+section#five-blocks .row.inside {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 
   /* section strategic planning */ 
 
