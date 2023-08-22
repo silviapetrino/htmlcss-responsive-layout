@@ -258,6 +258,10 @@ footer {
   flex-direction: row;
  }
 
+ section#five-blocks .row.inside .col {
+  width: 100%;
+ }
+
   section#five-blocks .first.col {
    width: calc(100% - 100% / 3);
   }
@@ -353,6 +357,10 @@ section#five-blocks .row.inside {
   flex-direction: row;
   justify-content: space-between;
 }
+
+section#five-blocks .row.inside .col {
+  width: 50%;
+ }
 
 
   /* section strategic planning */ 
