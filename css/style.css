@@ -17,6 +17,11 @@ h2 {
   font-size: 2rem;
 }
 
+h3 {
+  font-size: 2.6rem;
+  padding: 2rem 0;
+}
+
 h4 {
   font-size: 1.5rem;
   padding-bottom: 1rem;
@@ -66,6 +71,10 @@ section {
 
 .blue-text {
   color: var(--blue);
+}
+
+.violet-text {
+  color: var(--violet);
 }
 
 .small-text {
@@ -264,7 +273,6 @@ section#strategic-planning .second.card i {
 
 /* section testimonial */
 
-   /* altezze da togliere */
 
 section#testimonial .container {
   flex-direction: column;
@@ -272,13 +280,8 @@ section#testimonial .container {
   text-align: center;
 }
 
-section#testimonial .col {
-  height: 150px;
-}
 
 section#testimonial .col .card {
-  border-radius: 20px;
-  height: 80px;
   flex-direction: column;
 }
 
@@ -321,6 +324,7 @@ footer {
 
 @media screen and (min-width: 768px) {
   .container {
+    width: 90%;
     max-width: 768px;
   }
   
@@ -387,12 +391,10 @@ section#strategic-planning .first.card h2 {
 /* testionial section  */
   section#testimonial .col {
    width: 100%;
-   height: 150px;
 }
 
   section#testimonial .col .card {
    border-radius: 20px;
-   height: 80px;
    justify-content: space-between;
    flex-direction: row;
  }
