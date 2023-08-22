@@ -19,8 +19,9 @@ h4 {
 }
 
 p {
-  line-height: 1.8rem;
-  padding-bottom: 1.8rem;
+  line-height: 1.9rem;
+  padding-bottom: 2rem;
+  font-size: 1.2rem;
 }
 
 i {
@@ -79,7 +80,7 @@ i {
 .box {
   border-radius: 2rem;
   background-color: var(--lightblue);
-  padding: 1.5rem 1.5rem 0 1.5rem;
+  padding: 2rem 2rem 0 2rem;
   width: 95%;
 } 
 
@@ -102,7 +103,9 @@ i {
 
 .col {
   width: 100%;
+  padding: 1rem;
 }
+
 
 
 
@@ -149,6 +152,10 @@ section#five-blocks .row.inside {
   text-align: center;
  }
 
+section#five-blocks .row.inside .col.col-2 {
+  padding-bottom: 0;
+}
+
  section#five-blocks .text {
   text-align: left;
   padding-bottom: 2rem;
@@ -172,6 +179,17 @@ section#five-blocks .image img {
 section#five-blocks .btn {
   background-color: var(--blue);
 }
+
+section#five-blocks .box {
+  text-align: center;
+}
+
+section#five-blocks .icon {
+  font-size: 5rem;
+  color: var(--blue);
+  padding-bottom: .9rem;
+}
+
 
 /*  /section with five blocks  */
 
