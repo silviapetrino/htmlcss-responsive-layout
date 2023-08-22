@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
 h4 {
   font-size: 1.5rem;
   padding-bottom: 1rem;
@@ -20,7 +24,7 @@ h4 {
 
 p {
   line-height: 1.9rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1.8rem;
   font-size: 1.2rem;
 }
 
@@ -62,6 +66,14 @@ i {
 
 .small-text {
   font-size: 1rem;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-right {
+  text-align: right;
 }
 
 .btn {
@@ -168,6 +180,7 @@ section#five-blocks .row.inside .col.col-2 {
  }
 
 section#five-blocks .image img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -195,7 +208,7 @@ section#five-blocks .icon {
 /* section strategic planning */
 
 section#strategic-planning {
-  /* background-color: var(--violet); */
+  background-color: var(--violet);
 }
 section#strategic-planning .row {
   width: 100%;
@@ -280,7 +293,12 @@ footer {
   .container {
     max-width: 768px;
   }
-
+  
+  p {
+    line-height: 1.9rem;
+    padding-bottom: 1.2rem;
+    font-size: 1.2rem;
+  }
   
 .big-btn {
   padding: .4rem 3rem;
@@ -288,8 +306,10 @@ footer {
 
      /* five blocks section  */
 
+
  section#five-blocks .row {
   flex-direction: row;
+  align-items: stretch;
  }
 
  section#five-blocks .row.inside .col {
@@ -302,7 +322,6 @@ footer {
   
   section#five-blocks .col {
    width: calc( 100% / 3);
-   height: 100%;
   }
 
   section#five-blocks .col .image {
