@@ -292,17 +292,15 @@ section#testimonial .col .card {
 
 
 section#testimonial .col .card .image {
-  width: 200px;
-  height: 200px;
   overflow: hidden;
 }
 
 section#testimonial .col .card .image img {
-  width: 100%;
-  height: 100%;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   display: block;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 /* /section testimonial */
@@ -415,9 +413,19 @@ section#strategic-planning .first.card h2 {
    flex-direction: row;
  }
 
+
  section#testimonial .col .card .image {
   overflow: hidden;
+  width: 100%;
 }
+
+section#testimonial .col .card .image img {
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
+}
+
+
 
 /* testionial section  */ 
 /* section benefits  */
