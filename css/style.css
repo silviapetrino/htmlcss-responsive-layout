@@ -28,7 +28,7 @@ h4 {
 }
 
 p {
-  line-height: 1.9rem;
+  line-height: 2rem;
   padding: 1.8rem 0;
   font-size: 1.2rem;
 }
@@ -140,7 +140,7 @@ section {
  /* /utilities */
 
 .container {
-  width: 90%;
+  width: 85%;
   max-width: 576px;
   margin: 0px auto;
 }
@@ -336,6 +336,28 @@ section#about-us .row {
   align-items: center;
 }
 
+section#about-us p {
+  line-height: 3rem;
+}
+
+section#about-us .image {
+  position: relative;
+  display: inline-block;
+}
+
+section#about-us .image img {
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+} 
+
+section#about-us .image i {
+ position: absolute;
+ bottom: 140px;
+ left: 150px;
+ font-size: 4rem;
+}
+
 
 /*  /section about us */
 
@@ -354,7 +376,16 @@ footer {
     width: 90%;
     max-width: 768px;
   }
+
+
+  h2 {
+    font-size: 1.8rem;
+  }
   
+  h3 {
+    font-size: 2.2rem;
+
+  }
   
   p {
     line-height: 1.9rem;
@@ -403,8 +434,6 @@ footer {
    }
   
 
- 
-  
 
 /* five blocks section  */
 
@@ -453,16 +482,21 @@ section#benefits .row {
 /* section about us  */
 
 section#about-us .row {
-  height: 200px;
   flex-direction: row;
+  align-items: flex-start;
 }
 
 section#about-us .row .first.col {
-  width: 70%;
+  width: 60%;
 }
 
 section#about-us .row .second.col {
-  width: 30%;
+  width: 40%;
+}
+
+section#about-us .btn {
+ display: inline-block;
+
 }
 
 /* /section about us  */ 
@@ -478,7 +512,6 @@ section#about-us .row .second.col {
   width: 80%;
   max-width: 1200px;
  }
-
 
  header.topbar nav ul li {
   display: inline-block;
