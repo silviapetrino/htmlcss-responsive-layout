@@ -361,10 +361,22 @@ section#about-us .image i {
 
 /*  /section about us */
 
-footer {
-  text-align: center;
+
+/* call to action section  */
+section#call-to-action h2 {
+  color: var(--orange);
+  font-size: 4.5rem;
 }
 
+section#call-to-action p {
+  padding: 3rem 0;
+}
+
+section#call-to-action .btn {
+  padding: 1.5rem 6rem;
+  letter-spacing: 2px;
+}
+/* /call to action section  */
 
 /* ----MEDIA QUERIES ---*/
 
