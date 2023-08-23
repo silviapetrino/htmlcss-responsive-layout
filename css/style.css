@@ -94,7 +94,6 @@ section {
   cursor: pointer;
 }
 
-
 .big-btn {
   padding: .6rem 5rem;
 }
@@ -113,6 +112,10 @@ section {
 
 .bg-violet {
   background-color: var(--violet);
+}
+
+.bg-black {
+  background-color: var(--black);
 }
 
 .box {
@@ -377,6 +380,22 @@ section#call-to-action .btn {
   letter-spacing: 2px;
 }
 /* /call to action section  */
+
+/* footer  */
+
+footer p {
+  line-height: 1.5rem;
+}
+
+footer p:first-child {
+  padding: 3rem 0 5rem 0;
+}
+
+footer a {
+  text-decoration: underline;
+}
+/* /footer  */
+
 
 /* ----MEDIA QUERIES ---*/
 
