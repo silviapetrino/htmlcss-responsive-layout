@@ -166,6 +166,12 @@ header.topbar .container {
   justify-content: space-between;
  }
 
+ header.topbar i {
+  display: block;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
 
 header.topbar nav ul li {
   display: none;
@@ -428,6 +434,7 @@ footer a {
   padding: .4rem 3rem;
 }
 
+
      /* five blocks section  */
 
 
@@ -509,7 +516,7 @@ section#benefits .row {
   flex-direction: row;
   }
 
-  section#benefits .row .col {
+section#benefits .row .col {
   width: calc( 100% / 2);
 }
 /* /section benefits  */
@@ -546,6 +553,11 @@ section#about-us .btn {
   width: 80%;
   max-width: 1200px;
  }
+
+ 
+header.topbar i {
+  display: none;
+}
 
  header.topbar nav ul li {
   display: inline-block;
